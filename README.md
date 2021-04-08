@@ -19,6 +19,11 @@ or, one liner:
 ```git
 git merge feature master
 ```
+
+Merge is non-destructive operation i.e. the existing branches are not changes on any way.
+However, it creates a new commit ("merge commit") when two branches are merged. This can pollute the 
+history a bit. 
+
 ## Rebase Options
 
 Rebase feature branch into master. 
