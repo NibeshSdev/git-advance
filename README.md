@@ -53,3 +53,5 @@ pick 22asd12 Commit message 1 #1
 fixup 46asd21 Commit message 1 #2
 pick 8sd34s1 Commit message 1 #3
 ```
+
+_Source: https://www.atlassian.com/git/tutorials/merging-vs-rebasing_
