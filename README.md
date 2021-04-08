@@ -10,13 +10,13 @@ Don't voilate the GOlden Rule of Rebasing.
 
 Merge master into feature branch
 
-```git
+```
 git checkout feature
 git merge master
 ```
 
 or, one liner:
-```git
+```
 git merge feature master
 ```
 
