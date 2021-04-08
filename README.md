@@ -6,6 +6,19 @@ This is read me from feature 1 branch.
 
 Don't voilate the GOlden Rule of Rebasing.
 
+## MERGE OPTIONS
+
+Merge master into feature branch
+
+```git
+git checkout feature
+git merge master
+```
+
+or, one liner:
+```git
+git merge feature master
+```
 ## Rebase Options
 
 Rebase feature branch into master. 
