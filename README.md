@@ -54,4 +54,16 @@ fixup 46asd21 Commit message 1 #2
 pick 8sd34s1 Commit message 1 #3
 ```
 
-_Source: https://www.atlassian.com/git/tutorials/merging-vs-rebasing_
+## The Golden Rule of Rebasing
+
+"NEVER USE REBASE ON PUBLIC BRANCHES"
+
+In other words, never rebase master onto your branch.
+
+The rebase moves all of the commits in master onto the tip of feature. 
+The commit hash from the master branch is replaced with new ones.
+The problem is that this only happened in your repository. 
+All of the other developers are still working with the original master.
+
+
+*Source: https://www.atlassian.com/git/tutorials/merging-vs-rebasing*
