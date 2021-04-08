@@ -56,7 +56,7 @@ pick 8sd34s1 Commit message 1 #3
 
 ## The Golden Rule of Rebasing
 
-"NEVER USE REBASE ON PUBLIC BRANCHES"
+**"NEVER USE REBASE ON PUBLIC BRANCHES"**
 
 In other words, never rebase master onto your branch.
 
